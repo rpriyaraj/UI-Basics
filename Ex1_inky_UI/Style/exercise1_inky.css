@@ -1,0 +1,28 @@
+#div_outside{
+	background-color: #48A7EB;
+	box-sizing: content-box;
+	color: white;
+	font-family: Calibri;
+	//font-size: 15px;
+	padding: 10px;
+	margin: 15% 25% 10%;
+	width: 50%;
+	border: 3px;
+	text-align: center;
+}
+
+#button_download{
+	background-color: #2C4E69;
+	padding: 10px;
+	margin: 5% 30% 1%;
+	width: 35%;
+	border: 20px;
+	text-align: center;
+	
+}
+
+h2{
+	font-family: "Calibri";
+	font-size: 20px;
+	font-weight: normal;
+}
