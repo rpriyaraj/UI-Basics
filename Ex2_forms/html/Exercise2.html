@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>Exercise2 -Forms</title>
+	<link rel="stylesheet" href="../style/exercise2.css">
+</head>
+<body>
+	<div id="form">
+	<h1>Student Data</h1>
+	<form>
+		<label for="name" class="field_text"> Name </label>
+		<input type="text" id="name" name="name" class="field_input">
+		<div id='name_text' class="desc_text"> Please enter your first and last name. (required)</div>
+		<label for="password" class="field_text"> Password </label>
+		<input type="password" id="password" name="password" class="field_input">
+		<div id="pass_text" class="desc_text"> Password must be five or more characters. (required)</div>
+		<lable for="hobbies" class="field_text"> Hobbies </lable>
+			 <input type="checkbox" name="Surfing" id="surfing_cb">
+			 <label for="surfing_cb"> Surfing </label>
+			 <input type="checkbox" name="Running" id="running_cb">
+			 <label for="running_cb"> Running </label>
+			 <input type="checkbox" name="Biking" id="biking_cb">
+			 <label for="biking_cb"> Biking </label>
+			 <input type="checkbox" name="Paddling" id="Paddling_cb">
+			 <label for="Paddling_cb"> Paddling </label>
+			 <br>
+		<div id="hobbies_text" class="desc_text"> check zero or more hobbies. (optional)</div>
+		<label for="level" class="field_text"> Level </label>
+			<input type="radio" name="Freshman" id="freshman_rb">
+			<label for="freshman_rb"> Freshman </label>
+			<input type="radio" name="Sophomore" id="sophomore_rb">
+			<label for="sophomore_rb"> Sophomore </label>
+			<input type="radio" name="Junior" id="junior_rb">
+			<label for="junioran_rb"> Junior </label>
+			<input type="radio" name="Senior" id="senior_rb">
+			<label for="senior_rb"> Senior </label>
+			<input type="radio" name="Other" id="other_rb">
+			<label for="other_rb"> Other </label>
+			<br>
+		<div id="level_text" class="desc_text"> Select your grade level. (required) </div>
+		<label for="gpa" class="field_text"> GPA </label>
+		<select id="gpa" name="gpa" class="field_input">
+			<option value="10">10</option>
+			<option value="9">9</option>
+			<option value="8">8</option>
+			<option value="7">7</option>
+			<option value="6">6</option>
+		</select>
+		<div id="gpa_text" class="desc_text"> Select your GPA. (required)</div>
+		<lable for="Majors" class="field_text"> Majors </lable>
+		<select multiple class="field_input">
+			<option value="Physics"> Physics </option>
+			<option value="Chemistry"> Chemistry </option>
+			<option value="Mathematics"> Mathematics </option>
+			<option value="Biology"> Biology </option>
+		</select>
+		<div id="majors_text" class="desc_text"> Select zero or more majors. (optional)</div>
+</form>
+</div>
+</body>
+</html>

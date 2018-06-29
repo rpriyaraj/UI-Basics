@@ -1,0 +1,36 @@
+#form{
+	background-color: grey;
+	margin: 3%;
+	width:35%;
+	border: 3px;
+	box-sizing: content-box;
+	padding: 10%;
+}
+
+h1{
+	padding: 2%;
+	border: 3%;
+	margin: 2%;
+}
+
+.field_text{
+	font-family: "Calibri";
+	font-size: 15px;
+	font-weight: bold;
+	box-sizing: content-box;
+}
+
+
+.desc_text{
+	font-family: "Calibri";
+	font-size: 10px;
+	font-weight: lighter;
+	box-sizing: content-box;
+
+}
+
+
+.field_input{
+
+
+}
